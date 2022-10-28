@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>RESULT</title>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+        <link href="/static/style.css" rel="stylesheet">
+    </head>
+
+    <body align=center>
+        <div class="row">
+			<div class="col-md-4"></div>
+			<legend>
+			<div class="col-md-2">
+				<legend>
+					<img src="/static/images/logo.png" alt="Logo" height="70px">
+				</legend>
+			</div>
+			
+			<div class="col-md-2">
+				<legend>
+					<h1>Your Result</h1>
+				</legend>
+			</div>
+			</legend>
+			<div class="col-md-4"></div>
+		</div>
+        <form class="form-horizontal">
+            <fieldset disabled>
+                <div class="form-group">
+                    <label class="control-label col-xs-4" for="result"></label>
+                    <div class="col-xs-4" align="center">
+                        <input type="text" name="result" class="form-control" placeholder={{ entry }}>
+                    </div>
+                </div>
+            </fieldset>
+            <input type="button" class="btn btn-submit" value="Voltar" onClick="history.go(-1)">
+        </form>
+    </body>
+</html>

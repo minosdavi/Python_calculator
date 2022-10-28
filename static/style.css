@@ -1,0 +1,8 @@
+.inline{
+  display: inline-block;
+}
+
+.btn-submit{
+  background-color: #09777B;
+  color: white;
+}
